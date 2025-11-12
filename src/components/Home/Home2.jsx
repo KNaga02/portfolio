@@ -13,38 +13,35 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
+              I’m a passionate <b className="purple">Frontend Developer</b> who loves
+              transforming creative ideas into clean, responsive, and user-friendly
+              web experiences.
               <br />
               <br />
-              I’m proficient in
+              I have a strong understanding of
               <i>
                 <b className="purple">
                   {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
+                  React.js, JavaScript, HTML5, CSS3, and Tailwind CSS{" "}
                 </b>
               </i>
-              — and I enjoy working across both backend and frontend stacks.
+              — and I focus on building visually appealing, functional, and modern
+              web interfaces.
               <br />
               <br />
-              My key areas of interest include developing
+              My main area of interest is developing
               <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
+                <b className="purple"> Interactive Web Applications </b>
               </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
+              that are fast, intuitive, and accessible on all devices.
               <br />
               <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
+              I enjoy crafting reusable components, working with design systems, and
+              ensuring seamless user experiences using modern frontend technologies
+              like{" "}
+              <b className="purple">React.js</b>,{" "}
+              <b className="purple">Tailwind CSS</b>, and{" "}
+              <b className="purple">Bootstrap</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -57,4 +54,5 @@ function Home2() {
     </Container>
   );
 }
+
 export default Home2;
